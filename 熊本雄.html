@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumamon</title>
+    <style>
+      .kumamon {
+        width: 200px;
+        height: 200px;
+        background-color: #000;
+        border-radius: 50%;
+        position: relative;
+      }
+
+      .eye {
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+      }
+      .left-eye {
+        top: 40px;
+        left: 30px;
+      }
+
+      .right-eye {
+        top: 40px;
+        right: 30px;
+      }
+
+      .eye-dark {
+        width: 25px;
+        height: 25px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+      }
+      .left-eye-dark {
+        top: 48px;
+        left: 37px;
+      }
+      .right-eye-dark {
+        top: 48px;
+        right: 37px;
+      }
+
+      .mouth {
+        width: 80px;
+        height: 55px;
+        background-color: #fff;
+        border-radius: 90px/60px;
+        position: absolute;
+        bottom: 75px;
+        left: 60px;
+      }
+      .nose {
+        width: 21px;
+        height: 15px;
+        background-color: black;
+        border-radius: 140px/100px;
+        position: absolute;
+        bottom: 110px;
+        left: 89px;
+      }
+
+      .mouth1 {
+        width: 50px;
+        height: 18px;
+        background-color: black;
+        border-radius: 200px/70px;
+        position: absolute;
+        bottom: 85px;
+        left: 76px;
+      }
+
+      .cheek {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+        position: absolute;
+      }
+
+      .left-cheek {
+        top: 80px;
+        left: -10px;
+      }
+
+      .right-cheek {
+        top: 80px;
+        right: -10px;
+      }
+
+      .V {
+        background-color: white;
+        position: absolute;
+      }
+      .V-right {
+        width: 20px;
+        height: 25px;
+        bottom: 15px;
+        left: 105px;
+        transform: skew(-50deg);
+      }
+      .V-left {
+        width: 20px;
+        height: 25px;
+        bottom: 15px;
+        left: 75px;
+        transform: skew(50deg);
+      }
+
+      .ear-white {
+        width: 18px;
+        height: 18px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+      }
+      .ear-white-left {
+        top: 8px;
+        left: 21px;
+      }
+      .ear-white-right {
+        top: 8px;
+        right: 21px;
+      }
+
+      .ear {
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+      }
+
+      .left-ear {
+        top: 3px;
+        left: 15px;
+      }
+
+      .right-ear {
+        top: 3px;
+        right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kumamon">
+      <div class="ear-white ear-white-left"></div>
+      <div class="ear-white ear-white-right"></div>
+      <div class="eye left-eye"></div>
+      <div class="eye right-eye"></div>
+      <div class="eye-dark left-eye-dark"></div>
+      <div class="eye-dark right-eye-dark"></div>
+
+      <div class="mouth"></div>
+      <div class="mouth1"></div>
+      <div class="nose"></div>
+
+      <div class="cheek left-cheek"></div>
+      <div class="cheek right-cheek"></div>
+      <div class="V V-left"></div>
+      <div class="V V-right"></div>
+      <div class="ear left-ear"></div>
+      <div class="ear right-ear"></div>
+    </div>
+  </body>
+</html>
